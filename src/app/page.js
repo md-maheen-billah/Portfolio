@@ -32,7 +32,7 @@ export default function Home() {
         {isContactFirst && <EmailBlock />}
         <HeaderBlock />
         <SocialsBlock />
-        <AboutBlock></AboutBlock>
+        <AboutBlock />
         {!isAboutFirst && <FrontEnd />}
         {!isAboutFirst && <BackEnd />}
         {!isRobotFirst && <Project1 />}
@@ -614,23 +614,27 @@ const EmailBlock = () => (
 const Footer = () => {
   return (
     <motion.footer
-      whileHover={{
-        scale: 1.05,
-      }}
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.8, duration: 0.2 }}
       className="mt-10 md:mt-16"
     >
       <div>
-        <Image
-          src="https://i.ibb.co/hZgVMn1/maheen.png"
-          alt="something"
-          priority={true}
-          className="h-20 w-20 mx-auto"
-          width={1200} // Specify width attribute
-          height={1200} // Specify height attribute
-        />
+        <motion.div
+          className="h-20 w-20  mx-auto"
+          whileHover={{
+            scale: 1.05,
+          }}
+        >
+          <Image
+            src="https://i.ibb.co/hZgVMn1/maheen.png"
+            alt="something"
+            priority={true}
+            className="h-20 w-20 mx-auto"
+            width={1200} // Specify width attribute
+            height={1200} // Specify height attribute
+          />
+        </motion.div>
       </div>
 
       <p className="text-center text-maheenBB1 mt-4">
