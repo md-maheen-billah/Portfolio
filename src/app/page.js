@@ -360,21 +360,21 @@ const Project1 = () => (
                 <a
                   href="https://savor-oasis.web.app/"
                   target="_blank"
-                  className="flex items-center text-sm md:text-base gap-1 text-red-300 hover:underline"
+                  className="flex w-4/12 justify-center items-center text-xs md:text-base gap-1 text-red-300 hover:underline"
                 >
                   Live Link <FiArrowRight />
                 </a>
                 <a
                   href="https://github.com/md-maheen-billah/Assignment-11-client-side"
                   target="_blank"
-                  className="flex items-center text-xs md:text-base gap-1 text-red-300 hover:underline"
+                  className="flex w-4/12 justify-center items-center text-xs md:text-base gap-1 text-red-300 hover:underline"
                 >
                   Client Repo <FiArrowRight />
                 </a>
                 <a
                   href="https://github.com/md-maheen-billah/Assignment-11-server-side"
                   target="_blank"
-                  className="flex items-center text-xs md:text-base gap-1 text-red-300 hover:underline"
+                  className="flex w-4/12 justify-center  items-center  text-xs md:text-base gap-1 text-red-300 hover:underline"
                 >
                   Server Repo <FiArrowRight />
                 </a>
@@ -455,25 +455,25 @@ const Project2 = () => (
                   JsonWebtoken
                 </span>
               </div>
-              <div className="flex justify-between  mt-4">
+              <div className="flex  justify-between  mt-4">
                 <a
                   href="https://assignment-10-13166.web.app/"
                   target="_blank"
-                  className="flex items-center text-sm md:text-base gap-1 text-red-300 hover:underline"
+                  className="flex w-4/12 justify-center items-center text-xs md:text-base gap-1 text-red-300 hover:underline"
                 >
                   Live Link <FiArrowRight />
                 </a>
                 <a
                   href="https://github.com/md-maheen-billah/Assignment-10-client-side"
                   target="_blank"
-                  className="flex items-center text-xs md:text-base gap-1 text-red-300 hover:underline"
+                  className="flex w-4/12 justify-center items-center text-xs md:text-base gap-1 text-red-300 hover:underline"
                 >
                   Client Repo <FiArrowRight />
                 </a>
                 <a
                   href="https://github.com/md-maheen-billah/Assignment-10-server-side"
                   target="_blank"
-                  className="flex items-center text-xs md:text-base gap-1 text-red-300 hover:underline"
+                  className="flex w-4/12 justify-center items-center text-xs md:text-base gap-1 text-red-300 hover:underline"
                 >
                   Server Repo <FiArrowRight />
                 </a>
@@ -547,14 +547,14 @@ const Project3 = () => (
                 <a
                   href="https://assignment-9-7f06b.web.app/"
                   target="_blank"
-                  className="flex items-center text-sm md:text-base gap-1 text-red-300 hover:underline"
+                  className="flex w-6/12 justify-center items-center text-xs md:text-base gap-1 text-red-300 hover:underline"
                 >
                   Live Link <FiArrowRight />
                 </a>
                 <a
                   href="https://github.com/md-maheen-billah/Assignment-9"
                   target="_blank"
-                  className="flex items-center text-xs md:text-base gap-1 text-red-300 hover:underline"
+                  className="flex w-6/12 justify-center items-center text-xs md:text-base gap-1 text-red-300 hover:underline"
                 >
                   Github Repo <FiArrowRight />
                 </a>
