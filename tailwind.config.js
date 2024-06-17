@@ -12,7 +12,11 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        maheenWT1: "rgb(191 191 177  / var(--tw-text-opacity))",
+        maheenBB1: "rgb(20 20 10 / var(--tw-bg-opacity))",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
