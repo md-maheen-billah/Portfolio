@@ -316,7 +316,10 @@ const Project1 = () => (
           View Details <FiArrowRight />
         </button>
 
-        <dialog id="my_modal_3" className="modal">
+        <dialog
+          id="my_modal_3"
+          className="modal backdrop-blur-sm backdrop-brightness-50"
+        >
           <svg className="hidden">
             <filter id="grainy">
               <feTurbulence
@@ -326,7 +329,7 @@ const Project1 = () => (
               <feColorMatrix type="saturate" values="0"></feColorMatrix>
             </filter>
           </svg>
-          <div className="modal-box jaja bg-[#0a0c0d] border-2 border-maheenWT1">
+          <div className="modal-box jaja bg-[#0a0c0d]">
             <form method="dialog">
               {/* if there is a button in form, it will close the modal */}
               <button className="btn text-maheenWT1 btn-sm btn-circle btn-ghost absolute right-2 top-2">
