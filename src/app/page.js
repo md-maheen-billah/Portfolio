@@ -613,7 +613,15 @@ const EmailBlock = () => (
 
 const Footer = () => {
   return (
-    <footer className="mt-16">
+    <motion.footer
+      whileHover={{
+        scale: 1.05,
+      }}
+      initial={{ opacity: 0, y: -50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.8, duration: 0.2 }}
+      className="mt-16"
+    >
       <div>
         <Image
           src="https://i.ibb.co/hZgVMn1/maheen.png"
@@ -636,6 +644,6 @@ const Footer = () => {
         </a>{" "}
         - All rights reserved
       </p>
-    </footer>
+    </motion.footer>
   );
 };
