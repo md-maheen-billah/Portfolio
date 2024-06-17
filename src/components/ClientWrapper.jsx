@@ -42,7 +42,7 @@ export default function ClientWrapper({ children }) {
     });
 
     gsap.to(".overlay", {
-      delay: 5, // Adjust delay as needed
+      delay: 5.5, // Adjust delay as needed
       opacity: 0,
       pointerEvents: "none", // Disable pointer events on the overlay
       onComplete: () => {
