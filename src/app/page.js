@@ -13,7 +13,7 @@ export default function Home() {
   const { isAboutFirst, isRobotFirst, isContactFirst } = useMyContext();
 
   return (
-    <div className="min-h-screen px-4 py-8">
+    <div className="min-h-screen px-4 py-4 md:py-8">
       <motion.div
         initial="initial"
         animate="animate"
@@ -620,7 +620,7 @@ const Footer = () => {
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.8, duration: 0.2 }}
-      className="mt-16"
+      className="mt-10 md:mt-16"
     >
       <div>
         <Image

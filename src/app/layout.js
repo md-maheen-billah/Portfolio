@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
             <feColorMatrix type="saturate" values="0"></feColorMatrix>
           </filter>
         </svg>
-        <div className="bg-accent-200 text-accent-500 pt-5">
+        <div className="bg-accent-200 text-accent-500  md:pt-5">
           <ClientWrapper>{children}</ClientWrapper>
         </div>
       </body>
