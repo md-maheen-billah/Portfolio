@@ -205,7 +205,7 @@ const FrontEnd = () => (
   >
     <div>
       Frontend Development
-      <div className="flex justify-between pr-6 md:pr-16 mt-2">
+      <div className="flex justify-between  md:pr-2 lg:pr-16 mt-2">
         <div>
           <div className="flex gap-4 items-center">
             <FaTools className="text-xl text-maheenBB1 " />
@@ -266,7 +266,7 @@ const BackEnd = () => (
   >
     <div>
       Backend Development
-      <div className="flex justify-between pr-6 md:pr-16 mt-2">
+      <div className="flex justify-between md:pr-2 lg:pr-16 mt-2">
         <div>
           <div className="flex gap-4 items-center">
             <FaTools className="text-xl text-maheenWT1" />
