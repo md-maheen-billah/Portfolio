@@ -48,9 +48,12 @@ const Chip = ({ text, selected, setSelected }) => {
     setSelected(text);
     if (text === "Skills") {
       setIsAboutFirst(true);
+      setRobotFirst(false);
+      setContactFirst(false);
     } else if (text === "Projects") {
       setRobotFirst(true);
       setIsAboutFirst(false);
+      setContactFirst(false);
     } else if (text === "Contact") {
       setContactFirst(true);
       setRobotFirst(false);
