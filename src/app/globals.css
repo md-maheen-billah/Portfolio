@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  font-family: monospace, sans-serif;
-}
-
 .jaja:after,
 .jaja:before {
   position: fixed;
