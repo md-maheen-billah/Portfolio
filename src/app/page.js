@@ -19,6 +19,7 @@ export default function Home() {
         animate="animate"
         transition={{
           staggerChildren: 0.05,
+          delayChildren: 5.5,
         }}
         className="mx-auto grid max-w-4xl grid-flow-dense grid-cols-12 gap-4"
       >
@@ -115,12 +116,12 @@ const SocialsBlock = () => (
         rotate: "2.5deg",
         scale: 1.03,
       }}
-      className="col-span-6 bg-secondary-400 md:p-0 hover:bg-maheenWT1 md:col-span-3"
+      className="col-span-6 bg-secondary-400 md:p-0 lg:hover:bg-maheenWT1 md:col-span-3"
     >
       <a
         href="https://github.com/md-maheen-billah"
         target="_blank"
-        className="grid h-full place-content-center hover:text-maheenBB1 text-3xl text-maheenWT1"
+        className="grid h-full place-content-center lg:hover:text-maheenBB1 text-3xl text-maheenWT1"
       >
         <SiGithub />
       </a>
@@ -131,12 +132,12 @@ const SocialsBlock = () => (
         rotate: "-2.5deg",
         scale: 1.03,
       }}
-      className="col-span-6 hover:bg-maheenBB1 md:p-0 bg-maheenWT1 md:col-span-3"
+      className="col-span-6 lg:hover:bg-maheenBB1 md:p-0 bg-maheenWT1 md:col-span-3"
     >
       <a
         href="https://twitter.com/mdmaheen_billah"
         target="_blank"
-        className="grid h-full place-content-center  text-3xl hover:text-maheenWT1  text-maheenBB1 "
+        className="grid h-full place-content-center  text-3xl lg:hover:text-maheenWT1  text-maheenBB1 "
       >
         <SiTwitter />
       </a>
@@ -147,12 +148,12 @@ const SocialsBlock = () => (
         rotate: "-2.5deg",
         scale: 1.03,
       }}
-      className="col-span-6 hover:bg-maheenBB1 md:p-0 bg-maheenWT1 md:col-span-3"
+      className="col-span-6 lg:hover:bg-maheenBB1 md:p-0 bg-maheenWT1 md:col-span-3"
     >
       <a
         href="https://www.facebook.com/md.maheen.billah.97/"
         target="_blank"
-        className="grid h-full place-content-center text-maheenBB1 hover:text-maheenWT1  text-3xl "
+        className="grid h-full place-content-center text-maheenBB1 lg:hover:text-maheenWT1  text-3xl "
       >
         <SiFacebook />
       </a>
@@ -163,12 +164,12 @@ const SocialsBlock = () => (
         rotate: "2.5deg",
         scale: 1.03,
       }}
-      className="col-span-6 bg-secondary-400 md:p-0 hover:bg-maheenWT1 md:col-span-3"
+      className="col-span-6 bg-secondary-400 md:p-0 lg:hover:bg-maheenWT1 md:col-span-3"
     >
       <a
         href="https://www.linkedin.com/in/md-maheen-billah/"
         target="_blank"
-        className="grid h-full place-content-center hover:text-maheenBB1 text-3xl text-maheenWT1"
+        className="grid h-full place-content-center lg:hover:text-maheenBB1 text-3xl text-maheenWT1"
       >
         <SiLinkedin />
       </a>
@@ -623,7 +624,7 @@ const Footer = () => {
     <motion.footer
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 0.8, duration: 0.2 }}
+      transition={{ delay: 5.5, duration: 0.2 }}
       className="mt-10 md:mt-16"
     >
       <div>

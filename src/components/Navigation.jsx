@@ -13,7 +13,7 @@ const Navigation = () => {
       }}
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 0.1, duration: 0.2 }}
+      transition={{ delay: 5.5, duration: 0.2 }}
       className="px-6 py-4 flex justify-center items-center text-secondary-300 bg-accent-200"
     >
       <ul className="flex justify-between items-center space-x-1 md:space-x-2  bg-secondary-400 rounded-full px-4 py-3 text-sm md:text-base">
