@@ -86,7 +86,7 @@ const HeaderBlock = () => (
       height={1200} // Specify height attribute
     />
     <h1 className="mb-12 text-4xl font-medium leading-tight">
-      Ho, I&#39;m Maheen,{" "}
+      Hi, I&#39;m Maheen,{" "}
       <p className="text-zinc-500 text-xl">
         a Web Developer from Belgium with experience in responsive and user
         friendly Website development.
