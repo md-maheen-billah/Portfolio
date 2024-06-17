@@ -5,6 +5,7 @@ import { SiFacebook, SiGithub, SiLinkedin, SiTwitter } from "react-icons/si";
 import { useMyContext } from "@/components/Providers";
 import { twMerge } from "tailwind-merge";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Home() {
   const { isAboutFirst, isRobotFirst, isContactFirst } = useMyContext();
@@ -77,13 +78,15 @@ const HeaderBlock = () => (
     }}
     className="col-span-12 row-span-2 md:col-span-6"
   >
-    <img
+    <Image
       src="https://i.ibb.co/dk0HVCj/IMG-20240501-183142.jpg"
       alt="avatar"
       className="mb-4 border-4 border-maheenWT1 size-20 object-cover rounded-full"
+      width={1200} // Specify width attribute
+      height={1200} // Specify height attribute
     />
     <h1 className="mb-12 text-4xl font-medium leading-tight">
-      Hi, I'm Maheen,{" "}
+      Hi, I&#39;m Maheen,{" "}
       <p className="text-zinc-500 text-xl">
         a Web Developer from Belgium with experience in responsive and user
         friendly Website development.
@@ -316,10 +319,14 @@ const Project1 = () => (
                 ✕
               </button>
             </form>
-            <img
-              className="rounded-lg border border-[#0a0c0d] mt-6"
+            <Image
               src="https://i.ibb.co/Y8KXckT/Screenshot-2024-06-17-160807.png"
-            ></img>
+              alt="something"
+              priority={true}
+              className="rounded-lg border border-[#0a0c0d] mt-6"
+              width={1200} // Specify width attribute
+              height={1200} // Specify height attribute
+            />
             <div className="py-4">
               <p className="text-3xl text-maheenWT1">Savor Oasis</p>
               <p className="text-xl mt-2 mb-4 text-zinc-500 ">Technologies:</p>
@@ -411,10 +418,14 @@ const Project2 = () => (
                 ✕
               </button>
             </form>
-            <img
-              className="rounded-lg border border-[#0a0c0d] mt-6"
+            <Image
               src="https://i.ibb.co/kHrGQ19/Screenshot-2024-06-17-175319.png"
-            ></img>
+              alt="something"
+              priority={true}
+              className="rounded-lg border border-[#0a0c0d] mt-6"
+              width={1200} // Specify width attribute
+              height={1200} // Specify height attribute
+            />
             <div className="py-4">
               <p className="text-3xl text-maheenWT1">Canvas Isle</p>
               <p className="text-xl mt-2 mb-4 text-zinc-500 ">Technologies:</p>
@@ -504,10 +515,14 @@ const Project3 = () => (
                 ✕
               </button>
             </form>
-            <img
-              className="rounded-lg border border-[#0a0c0d] mt-6"
+            <Image
               src="https://i.ibb.co/M2H5Skg/Screenshot-2024-06-17-175709.png"
-            ></img>
+              alt="something"
+              priority={true}
+              className="rounded-lg border border-[#0a0c0d] mt-6"
+              width={1200} // Specify width attribute
+              height={1200} // Specify height attribute
+            />
             <div className="py-4">
               <p className="text-3xl text-maheenWT1">Terra Scope</p>
               <p className="text-xl mt-2 mb-4 text-zinc-500 ">Technologies:</p>
