@@ -40,6 +40,15 @@ export default function ClientWrapper({ children }) {
       },
       ease: "power2.inOut",
     });
+
+    gsap.to(".overlay", {
+      delay: 5, // Adjust delay as needed
+      opacity: 0,
+      pointerEvents: "none", // Disable pointer events on the overlay
+      onComplete: () => {
+        document.querySelector(".overlay").style.height = "0"; // Hide the overlay completely
+      },
+    });
   }, []); // Empty dependency array to run only once
 
   return (

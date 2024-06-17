@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  font-family: monospace, sans-serif;
+}
+
 .jaja:after,
 .jaja:before {
   position: fixed;
@@ -131,6 +135,7 @@ body:before {
   height: 100%;
   display: flex;
   justify-content: flex-end;
+  pointer-events: none;
   align-items: flex-end;
   z-index: 60;
   color: rgb(232 232 227 / var(--tw-bg-opacity));
