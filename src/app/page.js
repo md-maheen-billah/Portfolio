@@ -41,7 +41,6 @@ export default function Home() {
         {!isContactFirst && <LocationBlock />}
         {!isContactFirst && <PhoneBlock />}
         {!isContactFirst && <EmailBlock />}
-        <EmailListBlock />
       </motion.div>
       <Footer />
     </div>
@@ -614,40 +613,29 @@ const EmailBlock = () => (
 
 const Footer = () => {
   return (
-    <footer className="mt-12">
-      <p className="text-center text-zinc-400">
-        Made with ❤️ by{" "}
-        <a href="#" className="text-red-300 hover:underline">
+    <footer className="mt-16">
+      <div>
+        <Image
+          src="https://i.ibb.co/hZgVMn1/maheen.png"
+          alt="something"
+          priority={true}
+          className="h-20 w-20 mx-auto"
+          width={1200} // Specify width attribute
+          height={1200} // Specify height attribute
+        />
+      </div>
+
+      <p className="text-center text-maheenBB1 mt-4">
+        Copyright 2024 developed by{" "}
+        <a
+          href="https://www.linkedin.com/in/md-maheen-billah/"
+          target="_blank"
+          className="text-red-500 hover:underline"
+        >
           Md Maheen Billah
-        </a>
+        </a>{" "}
+        - All rights reserved
       </p>
     </footer>
   );
 };
-
-const EmailListBlock = () => (
-  <Block
-    whileHover={{
-      scale: 1.03,
-    }}
-    className="col-span-12 md:col-span-9"
-  >
-    <p className="mb-3 text-lg">Join my mailing list</p>
-    <form
-      onSubmit={(e) => e.preventDefault()}
-      className="flex items-center gap-2"
-    >
-      <input
-        type="email"
-        placeholder="Enter your email"
-        className="w-full rounded border border-zinc-700 bg-zinc-800 px-3 py-1.5 transition-colors focus:border-red-300 focus:outline-0"
-      />
-      <button
-        type="submit"
-        className="flex items-center gap-2 whitespace-nowrap rounded bg-zinc-50 px-3 py-2 text-sm font-medium text-zinc-900 transition-colors hover:bg-zinc-300"
-      >
-        <FiMail /> Join the list
-      </button>
-    </form>
-  </Block>
-);
