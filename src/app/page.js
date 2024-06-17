@@ -244,6 +244,13 @@ const FrontEnd = () => (
               <p className="text-zinc-700   text-sm">Intermediate</p>
             </div>
           </div>
+          <div className="flex gap-4 items-center">
+            <FaTools className="text-xl text-maheenBB1 " />
+            <div>
+              <p className="text-zinc-800 text-xl">NextJS</p>
+              <p className="text-zinc-700   text-sm">Beginner</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
