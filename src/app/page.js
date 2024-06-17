@@ -1,8 +1,10 @@
 "use client";
 import { FiArrowRight, FiMapPin, FiMail } from "react-icons/fi";
 import { FaReact, FaNodeJs, FaGitAlt, FaTools } from "react-icons/fa";
+import { LuPhone } from "react-icons/lu";
 import { SiFacebook, SiGithub, SiLinkedin, SiTwitter } from "react-icons/si";
 import { useMyContext } from "@/components/Providers";
+import { MdOutlineEmail } from "react-icons/md";
 import { twMerge } from "tailwind-merge";
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -25,6 +27,9 @@ export default function Home() {
         {isRobotFirst && <Project1 />}
         {isRobotFirst && <Project2 />}
         {isRobotFirst && <Project3 />}
+        {isContactFirst && <LocationBlock />}
+        {isContactFirst && <PhoneBlock />}
+        {isContactFirst && <EmailBlock />}
         <HeaderBlock />
         <SocialsBlock />
         <AboutBlock></AboutBlock>
@@ -33,7 +38,9 @@ export default function Home() {
         {!isRobotFirst && <Project1 />}
         {!isRobotFirst && <Project2 />}
         {!isRobotFirst && <Project3 />}
-        <LocationBlock />
+        {!isContactFirst && <LocationBlock />}
+        {!isContactFirst && <PhoneBlock />}
+        {!isContactFirst && <EmailBlock />}
         <EmailListBlock />
       </motion.div>
       <Footer />
@@ -565,12 +572,43 @@ const LocationBlock = () => (
   <Block
     whileHover={{
       scale: 1.03,
-      rotate: "-2.5deg",
+      rotate: "2.5deg",
     }}
-    className="col-span-12 flex flex-col items-center gap-4 md:col-span-3"
+    className="col-span-12 flex flex-col items-center gap-4 md:col-span-4"
   >
     <FiMapPin className="text-3xl" />
-    <p className="text-center text-lg text-zinc-400">Brussels, Belgium</p>
+    <p className="text-center text-base md:text-sm lg:text-base text-zinc-400">
+      Brussels, Belgium
+    </p>
+  </Block>
+);
+
+const PhoneBlock = () => (
+  <Block
+    whileHover={{
+      scale: 1.03,
+    }}
+    className="col-span-12 flex bg-maheenWT1 flex-col items-center gap-4 md:col-span-4"
+  >
+    <LuPhone className="text-3xl text-maheenBB1" />
+    <p className="text-center text-base md:text-sm lg:text-base text-zinc-800">
+      +32 455197479
+    </p>
+  </Block>
+);
+
+const EmailBlock = () => (
+  <Block
+    whileHover={{
+      scale: 1.03,
+      rotate: "-2.5deg",
+    }}
+    className="col-span-12 flex flex-col items-center gap-4 md:col-span-4"
+  >
+    <MdOutlineEmail className="text-3xl" />
+    <p className="text-center text-base md:text-sm lg:text-base text-zinc-400">
+      md.maheen.billah.97@gmail.com
+    </p>
   </Block>
 );
 
