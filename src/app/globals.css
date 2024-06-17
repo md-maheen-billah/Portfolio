@@ -122,7 +122,7 @@ body:before {
 .bar {
   width: 10vw;
   height: 105vh;
-  background: rgb(14 14 10 / var(--tw-bg-opacity));
+  background: black;
 }
 
 .counter {
