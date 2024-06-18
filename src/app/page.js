@@ -340,10 +340,7 @@ const Project1 = () => (
           View Details <FiArrowRight />
         </button>
 
-        <dialog
-          id="my_modal_3"
-          className="modal backdrop-blur-sm backdrop-brightness-50"
-        >
+        <dialog id="my_modal_3" className="modal ">
           <svg className="hidden">
             <filter id="grainy">
               <feTurbulence
@@ -442,10 +439,7 @@ const Project2 = () => (
           View Details <FiArrowRight />
         </button>
 
-        <dialog
-          id="my_modal_2"
-          className="modal backdrop-blur-sm backdrop-brightness-50"
-        >
+        <dialog id="my_modal_2" className="modal ">
           <svg className="hidden">
             <filter id="grainy">
               <feTurbulence
@@ -542,10 +536,7 @@ const Project3 = () => (
           View Details <FiArrowRight />
         </button>
 
-        <dialog
-          id="my_modal_1"
-          className="modal backdrop-blur-sm backdrop-brightness-50"
-        >
+        <dialog id="my_modal_1" className="modal ">
           <svg className="hidden ">
             <filter id="grainy">
               <feTurbulence
