@@ -126,7 +126,7 @@ const HeaderBlock = () => (
     <a
       href="https://drive.google.com/uc?export=download&id=1lamj6Jjy0an8kWRIYZDZc_nhT6BzR6-J"
       download
-      className="flex items-center  gap-1 animate__animated animate__fadeIn  animate__slower animate__infinite text-red-300 hover:underline"
+      className="flex items-center  gap-1  text-red-300 hover:underline"
     >
       Download Resume <FiArrowRight />
     </a>
@@ -335,7 +335,7 @@ const Project1 = () => (
       <div className="mt-2">
         <button
           onClick={() => document.getElementById("my_modal_3").showModal()}
-          className="flex items-center gap-1 text-base animate__animated animate__fadeIn  animate__slower animate__infinite text-red-300 hover:underline"
+          className="flex items-center gap-1 text-base  text-red-300 hover:underline"
         >
           View Details <FiArrowRight />
         </button>
@@ -437,7 +437,7 @@ const Project2 = () => (
       <div className="mt-2">
         <button
           onClick={() => document.getElementById("my_modal_2").showModal()}
-          className="flex items-center gap-1 text-base animate__animated animate__fadeIn  animate__slower animate__infinite text-red-300 hover:underline"
+          className="flex items-center gap-1 text-base  text-red-300 hover:underline"
         >
           View Details <FiArrowRight />
         </button>
@@ -537,7 +537,7 @@ const Project3 = () => (
       <div className="mt-2">
         <button
           onClick={() => document.getElementById("my_modal_1").showModal()}
-          className="flex items-center gap-1 text-base animate__animated animate__fadeIn  animate__slower animate__infinite text-red-300 hover:underline"
+          className="flex items-center gap-1 text-base  text-red-300 hover:underline"
         >
           View Details <FiArrowRight />
         </button>
