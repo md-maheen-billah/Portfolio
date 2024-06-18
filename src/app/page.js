@@ -126,7 +126,7 @@ const HeaderBlock = () => (
     <a
       href="https://drive.google.com/uc?export=download&id=1lamj6Jjy0an8kWRIYZDZc_nhT6BzR6-J"
       download
-      className="flex items-center  gap-1  text-red-300 hover:underline"
+      className="flex items-center  gap-1 animate__animated animate__fadeIn  animate__slower animate__infinite text-red-300 hover:underline"
     >
       Download Resume <FiArrowRight />
     </a>
@@ -335,12 +335,12 @@ const Project1 = () => (
       <div className="mt-2">
         <button
           onClick={() => document.getElementById("my_modal_3").showModal()}
-          className="flex items-center gap-1 text-base  text-red-300 hover:underline"
+          className="flex items-center gap-1 text-base animate__animated animate__fadeIn  animate__slower animate__infinite text-red-300 hover:underline"
         >
           View Details <FiArrowRight />
         </button>
 
-        <dialog id="my_modal_3" className="modal ">
+        <dialog id="my_modal_3" className="modal">
           <svg className="hidden">
             <filter id="grainy">
               <feTurbulence
@@ -350,7 +350,7 @@ const Project1 = () => (
               <feColorMatrix type="saturate" values="0"></feColorMatrix>
             </filter>
           </svg>
-          <div className="modal-box jaja bg-[#0a0c0d]">
+          <div className="modal-box jaja bg-[#0a0c0d] border-2 border-maheenWT1">
             <form method="dialog">
               {/* if there is a button in form, it will close the modal */}
               <button className="btn text-maheenWT1 btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -434,12 +434,12 @@ const Project2 = () => (
       <div className="mt-2">
         <button
           onClick={() => document.getElementById("my_modal_2").showModal()}
-          className="flex items-center gap-1 text-base  text-red-300 hover:underline"
+          className="flex items-center gap-1 text-base animate__animated animate__fadeIn  animate__slower animate__infinite text-red-300 hover:underline"
         >
           View Details <FiArrowRight />
         </button>
 
-        <dialog id="my_modal_2" className="modal ">
+        <dialog id="my_modal_2" className="modal">
           <svg className="hidden">
             <filter id="grainy">
               <feTurbulence
@@ -449,7 +449,7 @@ const Project2 = () => (
               <feColorMatrix type="saturate" values="0"></feColorMatrix>
             </filter>
           </svg>
-          <div className="modal-box jaja bg-[#0a0c0d] ">
+          <div className="modal-box jaja bg-[#0a0c0d] border-2 border-maheenWT1 ">
             <form method="dialog">
               {/* if there is a button in form, it will close the modal */}
               <button className="btn text-maheenWT1 btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -531,12 +531,12 @@ const Project3 = () => (
       <div className="mt-2">
         <button
           onClick={() => document.getElementById("my_modal_1").showModal()}
-          className="flex items-center gap-1 text-base  text-red-300 hover:underline"
+          className="flex items-center gap-1 text-base animate__animated animate__fadeIn  animate__slower animate__infinite text-red-300 hover:underline"
         >
           View Details <FiArrowRight />
         </button>
 
-        <dialog id="my_modal_1" className="modal ">
+        <dialog id="my_modal_1" className="modal">
           <svg className="hidden ">
             <filter id="grainy">
               <feTurbulence
@@ -546,7 +546,7 @@ const Project3 = () => (
               <feColorMatrix type="saturate" values="0"></feColorMatrix>
             </filter>
           </svg>
-          <div className="modal-box jaja bg-[#0a0c0d]">
+          <div className="modal-box jaja bg-[#0a0c0d] border-2 border-maheenWT1">
             <form method="dialog">
               {/* if there is a button in form, it will close the modal */}
               <button className="btn text-maheenWT1 btn-sm btn-circle btn-ghost absolute right-2 top-2">
