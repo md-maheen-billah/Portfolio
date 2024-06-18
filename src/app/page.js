@@ -1,13 +1,25 @@
 "use client";
-import { FiArrowRight, FiMapPin, FiMail } from "react-icons/fi";
-import { FaReact, FaNodeJs, FaGitAlt, FaTools } from "react-icons/fa";
+import { FiArrowRight, FiMapPin } from "react-icons/fi";
+import { FaReact, FaNodeJs, FaTools, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { LuPhone } from "react-icons/lu";
-import { SiFacebook, SiGithub, SiLinkedin, SiTwitter } from "react-icons/si";
+import {
+  SiExpress,
+  SiFacebook,
+  SiGithub,
+  SiLinkedin,
+  SiMongodb,
+  SiTailwindcss,
+  SiTwitter,
+} from "react-icons/si";
 import { useMyContext } from "@/components/Providers";
 import { MdOutlineEmail } from "react-icons/md";
 import { twMerge } from "tailwind-merge";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { RiNextjsLine } from "react-icons/ri";
+import { Typewriter } from "react-simple-typewriter";
+import { IoLogoJavascript } from "react-icons/io";
+import "animate.css";
 
 export default function Home() {
   const { isAboutFirst, isRobotFirst, isContactFirst } = useMyContext();
@@ -93,7 +105,19 @@ const HeaderBlock = () => (
       height={1200} // Specify height attribute
     />
     <h1 className="mb-12 text-4xl font-medium leading-tight">
-      Hi, I&#39;m Maheen,{" "}
+      Hi, I&#39;m{" "}
+      <span>
+        {/* Style will be inherited from the parent element */}
+        <Typewriter
+          words={["Maheen"]}
+          loop={0}
+          cursor
+          cursorStyle="_"
+          typeSpeed={50}
+          deleteSpeed={40}
+          delaySpeed={3000}
+        />
+      </span>
       <p className="text-zinc-500 text-xl">
         a Web Developer from Belgium with experience in responsive and user
         friendly Website development.
@@ -102,7 +126,7 @@ const HeaderBlock = () => (
     <a
       href="https://drive.google.com/uc?export=download&id=1lamj6Jjy0an8kWRIYZDZc_nhT6BzR6-J"
       download
-      className="flex items-center gap-1 text-red-300 hover:underline"
+      className="flex items-center  gap-1 animate__animated animate__fadeIn  animate__slower animate__infinite text-red-300 hover:underline"
     >
       Download Resume <FiArrowRight />
     </a>
@@ -123,7 +147,7 @@ const SocialsBlock = () => (
         target="_blank"
         className="grid h-full place-content-center lg:hover:text-maheenBB1 text-3xl text-maheenWT1"
       >
-        <SiGithub />
+        <SiGithub className="animate__animated animate__heartBeat  animate__slow animate__infinite" />
       </a>
     </Block>
 
@@ -139,7 +163,7 @@ const SocialsBlock = () => (
         target="_blank"
         className="grid h-full place-content-center  text-3xl lg:hover:text-maheenWT1  text-maheenBB1 "
       >
-        <SiTwitter />
+        <SiTwitter className="animate__animated animate__heartBeat  animate__slow animate__infinite" />
       </a>
     </Block>
 
@@ -155,7 +179,7 @@ const SocialsBlock = () => (
         target="_blank"
         className="grid h-full place-content-center text-maheenBB1 lg:hover:text-maheenWT1  text-3xl "
       >
-        <SiFacebook />
+        <SiFacebook className="animate__animated animate__heartBeat  animate__slow animate__infinite" />
       </a>
     </Block>
 
@@ -171,7 +195,7 @@ const SocialsBlock = () => (
         target="_blank"
         className="grid h-full place-content-center lg:hover:text-maheenBB1 text-3xl text-maheenWT1"
       >
-        <SiLinkedin />
+        <SiLinkedin className="animate__animated animate__heartBeat  animate__slow animate__infinite" />
       </a>
     </Block>
   </>
@@ -209,21 +233,21 @@ const FrontEnd = () => (
       <div className="flex justify-between  md:pr-2 lg:pr-16 mt-2">
         <div>
           <div className="flex gap-4 items-center">
-            <FaTools className="text-xl text-maheenBB1 " />
+            <FaHtml5 className="text-xl text-maheenBB1 " />
             <div>
               <p className="text-zinc-800 text-xl">HTML5</p>
               <p className="text-zinc-700   text-sm">Intermediate</p>
             </div>
           </div>
           <div className="flex gap-4 items-center">
-            <FaTools className="text-xl text-maheenBB1 " />
+            <FaCss3Alt className="text-xl text-maheenBB1 " />
             <div>
               <p className="text-zinc-800 text-xl">CSS3</p>
               <p className="text-zinc-700   text-sm">Intermediate</p>
             </div>
           </div>
           <div className="flex gap-4 items-center">
-            <FaTools className="text-xl text-maheenBB1 " />
+            <SiTailwindcss className="text-xl text-maheenBB1 " />
             <div>
               <p className="text-zinc-800 text-xl">Tailwind</p>
               <p className="text-zinc-700   text-sm">Intermediate</p>
@@ -232,21 +256,21 @@ const FrontEnd = () => (
         </div>
         <div>
           <div className="flex gap-4 items-center">
-            <FaTools className="text-xl text-maheenBB1 " />
+            <IoLogoJavascript className="text-xl text-maheenBB1 " />
             <div>
               <p className="text-zinc-800 text-xl">JavaScript</p>
               <p className="text-zinc-700   text-sm">Intermediate</p>
             </div>
           </div>
           <div className="flex gap-4 items-center">
-            <FaTools className="text-xl text-maheenBB1 " />
+            <FaReact className="text-xl text-maheenBB1 " />
             <div>
               <p className="text-zinc-800 text-xl">ReactJS</p>
               <p className="text-zinc-700   text-sm">Intermediate</p>
             </div>
           </div>
           <div className="flex gap-4 items-center">
-            <FaTools className="text-xl text-maheenBB1 " />
+            <RiNextjsLine className="text-xl text-maheenBB1 " />
             <div>
               <p className="text-zinc-800 text-xl">NextJS</p>
               <p className="text-zinc-700   text-sm">Beginner</p>
@@ -270,14 +294,14 @@ const BackEnd = () => (
       <div className="flex justify-between md:pr-2 lg:pr-16 mt-2">
         <div>
           <div className="flex gap-4 items-center">
-            <FaTools className="text-xl text-maheenWT1" />
+            <FaNodeJs className="text-xl text-maheenWT1" />
             <div>
               <p className="text-zinc-500 text-xl">NodeJS</p>
               <p className="text-zinc-500   text-sm">Beginner</p>
             </div>
           </div>
           <div className="flex gap-4 items-center">
-            <FaTools className="text-xl text-maheenWT1 " />
+            <SiMongodb className="text-xl text-maheenWT1 " />
             <div>
               <p className="text-zinc-500 text-xl">MongoDB</p>
               <p className="text-zinc-500   text-sm">Beginner</p>
@@ -286,7 +310,7 @@ const BackEnd = () => (
         </div>
         <div>
           <div className="flex gap-4 items-center">
-            <FaTools className="text-xl text-maheenWT1 " />
+            <SiExpress className="text-xl text-maheenWT1 " />
             <div>
               <p className="text-zinc-500 text-xl">ExpressJS</p>
               <p className="text-zinc-500   text-sm">Beginner</p>
@@ -311,7 +335,7 @@ const Project1 = () => (
       <div className="mt-2">
         <button
           onClick={() => document.getElementById("my_modal_3").showModal()}
-          className="flex items-center gap-1 text-base text-red-300 hover:underline"
+          className="flex items-center gap-1 text-base animate__animated animate__fadeIn  animate__slower animate__infinite text-red-300 hover:underline"
         >
           View Details <FiArrowRight />
         </button>
@@ -413,7 +437,7 @@ const Project2 = () => (
       <div className="mt-2">
         <button
           onClick={() => document.getElementById("my_modal_2").showModal()}
-          className="flex items-center gap-1 text-base text-red-300 hover:underline"
+          className="flex items-center gap-1 text-base animate__animated animate__fadeIn  animate__slower animate__infinite text-red-300 hover:underline"
         >
           View Details <FiArrowRight />
         </button>
@@ -513,7 +537,7 @@ const Project3 = () => (
       <div className="mt-2">
         <button
           onClick={() => document.getElementById("my_modal_1").showModal()}
-          className="flex items-center gap-1 text-base text-red-300 hover:underline"
+          className="flex items-center gap-1 text-base animate__animated animate__fadeIn  animate__slower animate__infinite text-red-300 hover:underline"
         >
           View Details <FiArrowRight />
         </button>
@@ -592,7 +616,7 @@ const LocationBlock = () => (
     }}
     className="col-span-12 flex flex-col items-center gap-4 md:col-span-4"
   >
-    <FiMapPin className="text-3xl" />
+    <FiMapPin className="text-3xl animate__animated animate__pulse animate__fast  animate__infinite" />
     <p className="text-center text-base md:text-sm lg:text-base text-zinc-400">
       Brussels, Belgium
     </p>
@@ -606,7 +630,7 @@ const PhoneBlock = () => (
     }}
     className="col-span-12 flex bg-maheenWT1 flex-col items-center gap-4 md:col-span-4"
   >
-    <LuPhone className="text-3xl text-maheenBB1" />
+    <LuPhone className="text-3xl text-maheenBB1 animate__animated animate__fast animate__pulse  animate__infinite" />
     <p className="text-center text-base md:text-sm lg:text-base text-zinc-800">
       +32 455197479
     </p>
@@ -621,7 +645,7 @@ const EmailBlock = () => (
     }}
     className="col-span-12 flex flex-col items-center gap-4 md:col-span-4"
   >
-    <MdOutlineEmail className="text-3xl" />
+    <MdOutlineEmail className="text-3xl animate__animated animate__fast animate__pulse animate__infinite" />
     <p className="text-center text-base md:text-sm lg:text-base text-zinc-400">
       md.maheen.billah.97@gmail.com
     </p>
@@ -633,7 +657,7 @@ const Footer = () => {
     <motion.footer
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 5.5, duration: 0.2 }}
+      transition={{ delay: 6.5, duration: 0.2 }}
       className="mt-10 md:mt-16"
     >
       <div>
@@ -647,7 +671,7 @@ const Footer = () => {
             src="https://i.ibb.co/hZgVMn1/maheen.png"
             alt="something"
             priority={true}
-            className="h-20 w-20 mx-auto"
+            className="h-20 w-20 mx-auto animate__animated animate__heartBeat  animate__infinite"
             width={1200} // Specify width attribute
             height={1200} // Specify height attribute
           />
