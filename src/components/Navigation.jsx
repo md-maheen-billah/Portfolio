@@ -8,15 +8,12 @@ const Navigation = () => {
 
   return (
     <motion.div
-      whileHover={{
-        scale: 1.05,
-      }}
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 5.5, duration: 0.2 }}
-      className="px-6 py-4 flex justify-center items-center text-secondary-300 bg-accent-200"
+      className="px-6 py-4 flex justify-center  items-center text-secondary-300 bg-accent-200"
     >
-      <ul className="flex justify-between items-center space-x-1 md:space-x-2  bg-secondary-400 rounded-full px-4 py-3 text-sm md:text-base">
+      <ul className="flex justify-between items-center lg:hover:scale-105 transition space-x-1 md:space-x-2  bg-secondary-400 rounded-full px-4 py-3 text-sm md:text-base">
         <Chip
           text={"About"}
           selected={selected === "About"}
