@@ -37,9 +37,9 @@ export default function Home() {
       >
         {isAboutFirst && <FrontEnd />}
         {isAboutFirst && <BackEnd />}
+        {isRobotFirst && <Project3 />}
         {isRobotFirst && <Project1 />}
         {isRobotFirst && <Project2 />}
-        {isRobotFirst && <Project3 />}
         {isContactFirst && <LocationBlock />}
         {isContactFirst && <PhoneBlock />}
         {isContactFirst && <EmailBlock />}
@@ -48,9 +48,9 @@ export default function Home() {
         <AboutBlock />
         {!isAboutFirst && <FrontEnd />}
         {!isAboutFirst && <BackEnd />}
+        {!isRobotFirst && <Project3 />}
         {!isRobotFirst && <Project1 />}
         {!isRobotFirst && <Project2 />}
-        {!isRobotFirst && <Project3 />}
         {!isContactFirst && <LocationBlock />}
         {!isContactFirst && <PhoneBlock />}
         {!isContactFirst && <EmailBlock />}
@@ -526,8 +526,10 @@ const Project3 = () => (
     className="col-span-12 text-3xl leading-tight md:col-span-4"
   >
     <div>
-      Terra Scope
-      <p className="text-zinc-500 text-xl">Real Estate Exploring Website</p>
+      Destined Affinity
+      <p className="text-zinc-500 text-xl">
+        Matrimony Website Connecting People
+      </p>
       <div className="mt-2">
         <button
           onClick={() => document.getElementById("my_modal_1").showModal()}
@@ -554,7 +556,7 @@ const Project3 = () => (
               </button>
             </form>
             <Image
-              src="https://i.ibb.co/M2H5Skg/Screenshot-2024-06-17-175709.png"
+              src="https://i.ibb.co/0jRThRs/Screenshot-2024-06-22-163517.png"
               alt="something"
               priority={true}
               className="rounded-lg border border-[#0a0c0d] mt-6"
@@ -562,7 +564,7 @@ const Project3 = () => (
               height={1200} // Specify height attribute
             />
             <div className="py-4">
-              <p className="text-3xl text-maheenWT1">Terra Scope</p>
+              <p className="text-3xl text-maheenWT1">Destined Affinity</p>
               <p className="text-xl mt-2 mb-4 text-zinc-500 ">Technologies:</p>
               <div className="text-[10px] md:text-sm text-zinc-500 text-center grid grid-cols-3 gap-2 mt-2">
                 <span className="bg-maheenWT1 rounded-md px-2 py-1 text-maheenBB1">
@@ -574,21 +576,37 @@ const Project3 = () => (
                 <span className="bg-maheenWT1 rounded-md px-2 py-1 text-maheenBB1">
                   Firebase
                 </span>
+                <span className="bg-maheenWT1 rounded-md px-2 py-1 text-maheenBB1">
+                  ExpressJS
+                </span>
+                <span className="bg-maheenWT1 rounded-md px-2 py-1 text-maheenBB1">
+                  MongoDB
+                </span>
+                <span className="bg-maheenWT1 rounded-md px-2 py-1 text-maheenBB1">
+                  JsonWebtoken
+                </span>
               </div>
               <div className="flex justify-between  mt-4">
                 <a
-                  href="https://assignment-9-7f06b.web.app/"
+                  href="https://destined-affinity.web.app/"
                   target="_blank"
-                  className="flex w-6/12 justify-center items-center text-xs md:text-base gap-1 text-red-300 hover:underline"
+                  className="flex w-4/12 justify-center items-center text-xs md:text-base gap-1 text-red-300 hover:underline"
                 >
                   Live Link <FiArrowRight />
                 </a>
                 <a
-                  href="https://github.com/md-maheen-billah/Assignment-9"
+                  href="https://github.com/md-maheen-billah/Assignment-12-client-side"
                   target="_blank"
-                  className="flex w-6/12 justify-center items-center text-xs md:text-base gap-1 text-red-300 hover:underline"
+                  className="flex w-4/12 justify-center items-center text-xs md:text-base gap-1 text-red-300 hover:underline"
                 >
-                  Github Repo <FiArrowRight />
+                  Client Repo <FiArrowRight />
+                </a>
+                <a
+                  href="https://github.com/md-maheen-billah/Assignment-12-server-side"
+                  target="_blank"
+                  className="flex w-4/12 justify-center  items-center  text-xs md:text-base gap-1 text-red-300 hover:underline"
+                >
+                  Server Repo <FiArrowRight />
                 </a>
               </div>
             </div>
