@@ -98,7 +98,7 @@ const HeaderBlock = () => (
     className="col-span-12 row-span-2 md:col-span-6"
   >
     <Image
-      src="https://i.ibb.co/dk0HVCj/IMG-20240501-183142.jpg"
+      src="https://i.ibb.co/JdCVyGK/463979909-3954349581449316-2195651006933051283-n.jpg"
       alt="avatar"
       className="mb-4 border-4 border-maheenWT1 size-20 object-cover rounded-full"
       width={1200} // Specify width attribute
