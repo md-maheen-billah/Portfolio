@@ -105,19 +105,8 @@ const HeaderBlock = () => (
       height={1200} // Specify height attribute
     />
     <h1 className="mb-12 text-4xl font-medium leading-tight">
-      Hi, I&#39;m{" "}
-      <span>
-        {/* Style will be inherited from the parent element */}
-        <Typewriter
-          words={["Maheen"]}
-          loop={0}
-          cursor
-          cursorStyle="_"
-          typeSpeed={50}
-          deleteSpeed={40}
-          delaySpeed={3000}
-        />
-      </span>
+      Hi, I&#39;m Maheen
+      
       <p className="text-zinc-500 text-xl">
         a Web Developer from Belgium with experience in responsive and user
         friendly Website development.
@@ -126,7 +115,7 @@ const HeaderBlock = () => (
     <a
       href="https://drive.google.com/uc?export=download&id=1lamj6Jjy0an8kWRIYZDZc_nhT6BzR6-J"
       download
-      className="flex items-center  gap-1 animate__animated animate__fadeIn  animate__slower animate__infinite text-red-300 hover:underline"
+      className="flex items-center  gap-1 text-red-300 hover:underline"
     >
       Download Resume <FiArrowRight />
     </a>
