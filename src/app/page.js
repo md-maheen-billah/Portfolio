@@ -136,7 +136,7 @@ const SocialsBlock = () => (
         target="_blank"
         className="grid h-full place-content-center lg:hover:text-maheenBB1 text-3xl text-maheenWT1"
       >
-        <SiGithub className="animate__animated animate__heartBeat  animate__slow animate__infinite" />
+        <SiGithub className="" />
       </a>
     </Block>
 
@@ -152,7 +152,7 @@ const SocialsBlock = () => (
         target="_blank"
         className="grid h-full place-content-center  text-3xl lg:hover:text-maheenWT1  text-maheenBB1 "
       >
-        <SiTwitter className="animate__animated animate__heartBeat  animate__slow animate__infinite" />
+        <SiTwitter className="" />
       </a>
     </Block>
 
@@ -168,7 +168,7 @@ const SocialsBlock = () => (
         target="_blank"
         className="grid h-full place-content-center text-maheenBB1 lg:hover:text-maheenWT1  text-3xl "
       >
-        <SiFacebook className="animate__animated animate__heartBeat  animate__slow animate__infinite" />
+        <SiFacebook className="" />
       </a>
     </Block>
 
@@ -184,7 +184,7 @@ const SocialsBlock = () => (
         target="_blank"
         className="grid h-full place-content-center lg:hover:text-maheenBB1 text-3xl text-maheenWT1"
       >
-        <SiLinkedin className="animate__animated animate__heartBeat  animate__slow animate__infinite" />
+        <SiLinkedin className="" />
       </a>
     </Block>
   </>
@@ -324,7 +324,7 @@ const Project1 = () => (
       <div className="mt-2">
         <button
           onClick={() => document.getElementById("my_modal_3").showModal()}
-          className="flex items-center gap-1 text-base animate__animated animate__fadeIn  animate__slower animate__infinite text-red-300 hover:underline"
+          className="flex items-center gap-1 text-base text-red-300 hover:underline"
         >
           View Details <FiArrowRight />
         </button>
@@ -423,7 +423,7 @@ const Project2 = () => (
       <div className="mt-2">
         <button
           onClick={() => document.getElementById("my_modal_2").showModal()}
-          className="flex items-center gap-1 text-base animate__animated animate__fadeIn  animate__slower animate__infinite text-red-300 hover:underline"
+          className="flex items-center gap-1 text-base text-red-300 hover:underline"
         >
           View Details <FiArrowRight />
         </button>
@@ -522,7 +522,7 @@ const Project3 = () => (
       <div className="mt-2">
         <button
           onClick={() => document.getElementById("my_modal_1").showModal()}
-          className="flex items-center gap-1 text-base animate__animated animate__fadeIn  animate__slower animate__infinite text-red-300 hover:underline"
+          className="flex items-center gap-1 text-base text-red-300 hover:underline"
         >
           View Details <FiArrowRight />
         </button>
@@ -614,7 +614,7 @@ const LocationBlock = () => (
     }}
     className="col-span-12 flex flex-col items-center gap-4 md:col-span-4"
   >
-    <FiMapPin className="text-3xl animate__animated animate__pulse animate__fast  animate__infinite" />
+    <FiMapPin className="text-3xl" />
     <p className="text-center text-base md:text-sm lg:text-base text-zinc-400">
       Brussels, Belgium
     </p>
@@ -628,7 +628,7 @@ const PhoneBlock = () => (
     }}
     className="col-span-12 flex bg-maheenWT1 flex-col items-center gap-4 md:col-span-4"
   >
-    <LuPhone className="text-3xl text-maheenBB1 animate__animated animate__fast animate__pulse  animate__infinite" />
+    <LuPhone className="text-3xl text-maheenBB1" />
     <p className="text-center text-base md:text-sm lg:text-base text-zinc-800">
       +32 455197479
     </p>
@@ -643,7 +643,7 @@ const EmailBlock = () => (
     }}
     className="col-span-12 flex flex-col items-center gap-4 md:col-span-4"
   >
-    <MdOutlineEmail className="text-3xl animate__animated animate__fast animate__pulse animate__infinite" />
+    <MdOutlineEmail className="text-3xl" />
     <p className="text-center text-base md:text-sm lg:text-base text-zinc-400">
       md.maheen.billah.97@gmail.com
     </p>
@@ -669,7 +669,7 @@ const Footer = () => {
             src="https://i.ibb.co/hZgVMn1/maheen.png"
             alt="something"
             priority={true}
-            className="h-20 w-20 mx-auto animate__animated animate__heartBeat  animate__infinite"
+            className="h-20 w-20 mx-auto "
             width={1200} // Specify width attribute
             height={1200} // Specify height attribute
           />
