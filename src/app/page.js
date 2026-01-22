@@ -101,8 +101,8 @@ const HeaderBlock = () => (
       src="https://i.ibb.co/9kMmxcdq/Chat-GPT-Image-Jan-22-2026-03-35-19-PM.png"
       alt="avatar"
       className="mb-4 border-4 border-maheenWT1 size-20 object-cover rounded-full"
-      width={1200} // Specify width attribute
-      height={1200} // Specify height attribute
+      width={1500} // Specify width attribute
+      height={1500} // Specify height attribute
     />
     <h1 className="mb-12 text-4xl font-medium leading-tight">
       Hi, I&#39;m Maheen
