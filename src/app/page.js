@@ -98,7 +98,7 @@ const HeaderBlock = () => (
     className="col-span-12 row-span-2 md:col-span-6"
   >
     <Image
-      src="https://i.ibb.co/9kMmxcdq/Chat-GPT-Image-Jan-22-2026-03-35-19-PM.png"
+      src="https://i.ibb.co/N6FdgPQr/image-2.jpg"
       alt="avatar"
       className="mb-4 border-4 border-maheenWT1 size-20 object-cover rounded-full"
       width={1500} // Specify width attribute
