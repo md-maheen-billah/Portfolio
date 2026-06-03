@@ -63,8 +63,10 @@ export default function Home() {
         <HeaderBlock />
         <SocialsBlock />
         <AboutBlock />
-        {isAboutFirst && <DataEngineering />}
-        {isAboutFirst && <AIANDML />}
+        {!isAboutFirst && <DataEngineering />}
+        {!isAboutFirst && <AIANDML />}
+        {!isAboutFirst && <FrontEnd />}
+        {!isAboutFirst && <BackEnd />}
         {!isRobotFirst && <Project3 />}
         {!isRobotFirst && <Project1 />}
         {!isRobotFirst && <Project2 />}
