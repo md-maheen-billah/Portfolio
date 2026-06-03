@@ -108,8 +108,7 @@ const HeaderBlock = () => (
       Hi, I&#39;m Maheen
       
       <p className="text-zinc-500 text-xl">
-        a Web Developer from Belgium with experience in responsive and user
-        friendly Website development.
+        a Data Engineer and AI/Data Science Trainee from Belgium with experience in data engineering, machine learning, computer vision, and cloud-based data solutions.
       </p>
     </h1>
     <a
