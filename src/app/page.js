@@ -243,7 +243,6 @@ const DataEngineering = () => (
             <FaPython className="text-xl text-maheenWT1" />
             <div>
               <p className="text-zinc-500 text-xl">Python</p>
-              <p className="text-zinc-500 text-sm">Advanced</p>
             </div>
           </div>
 
@@ -251,7 +250,6 @@ const DataEngineering = () => (
             <SiPandas className="text-xl text-maheenWT1" />
             <div>
               <p className="text-zinc-500 text-xl">Pandas</p>
-              <p className="text-zinc-500 text-sm">Advanced</p>
             </div>
           </div>
 
@@ -259,7 +257,6 @@ const DataEngineering = () => (
             <FaDatabase className="text-xl text-maheenWT1" />
             <div>
               <p className="text-zinc-500 text-xl">SQL</p>
-              <p className="text-zinc-500 text-sm">Intermediate</p>
             </div>
           </div>
         </div>
@@ -269,7 +266,6 @@ const DataEngineering = () => (
             <SiMicrosoftazure className="text-xl text-maheenWT1" />
             <div>
               <p className="text-zinc-500 text-xl">Azure</p>
-              <p className="text-zinc-500 text-sm">Intermediate</p>
             </div>
           </div>
 
@@ -277,7 +273,6 @@ const DataEngineering = () => (
             <SiPostgresql className="text-xl text-maheenWT1" />
             <div>
               <p className="text-zinc-500 text-xl">PostgreSQL</p>
-              <p className="text-zinc-500 text-sm">Intermediate</p>
             </div>
           </div>
 
@@ -285,7 +280,6 @@ const DataEngineering = () => (
             <FaGitAlt className="text-xl text-maheenWT1" />
             <div>
               <p className="text-zinc-500 text-xl">Git</p>
-              <p className="text-zinc-500 text-sm">Intermediate</p>
             </div>
           </div>
         </div>
@@ -309,7 +303,6 @@ const AIANDML = () => (
             <SiScikitlearn className="text-xl text-maheenBB1" />
             <div>
               <p className="text-zinc-800 text-xl">Scikit-Learn</p>
-              <p className="text-zinc-700 text-sm">Intermediate</p>
             </div>
           </div>
 
@@ -317,7 +310,6 @@ const AIANDML = () => (
             <FaRobot className="text-xl text-maheenBB1" />
             <div>
               <p className="text-zinc-800 text-xl">Computer Vision</p>
-              <p className="text-zinc-700 text-sm">YOLOv8</p>
             </div>
           </div>
 
@@ -325,7 +317,6 @@ const AIANDML = () => (
             <SiMongodb className="text-xl text-maheenBB1" />
             <div>
               <p className="text-zinc-800 text-xl">MongoDB</p>
-              <p className="text-zinc-700 text-sm">Intermediate</p>
             </div>
           </div>
         </div>
@@ -335,7 +326,6 @@ const AIANDML = () => (
             <SiFastapi className="text-xl text-maheenBB1" />
             <div>
               <p className="text-zinc-800 text-xl">FastAPI</p>
-              <p className="text-zinc-700 text-sm">Intermediate</p>
             </div>
           </div>
 
@@ -343,7 +333,6 @@ const AIANDML = () => (
             <FaDocker className="text-xl text-maheenBB1" />
             <div>
               <p className="text-zinc-800 text-xl">Docker</p>
-              <p className="text-zinc-700 text-sm">Intermediate</p>
             </div>
           </div>
 
@@ -351,7 +340,6 @@ const AIANDML = () => (
             <FaDatabase className="text-xl text-maheenBB1" />
             <div>
               <p className="text-zinc-800 text-xl">Data Pipelines</p>
-              <p className="text-zinc-700 text-sm">ETL & Automation</p>
             </div>
           </div>
         </div>
@@ -375,21 +363,18 @@ const FrontEnd = () => (
             <FaHtml5 className="text-xl text-maheenBB1 " />
             <div>
               <p className="text-zinc-800 text-xl">HTML5</p>
-              <p className="text-zinc-700   text-sm">Intermediate</p>
             </div>
           </div>
           <div className="flex gap-4 items-center">
             <FaCss3Alt className="text-xl text-maheenBB1 " />
             <div>
               <p className="text-zinc-800 text-xl">CSS3</p>
-              <p className="text-zinc-700   text-sm">Intermediate</p>
             </div>
           </div>
           <div className="flex gap-4 items-center">
             <SiTailwindcss className="text-xl text-maheenBB1 " />
             <div>
               <p className="text-zinc-800 text-xl">Tailwind</p>
-              <p className="text-zinc-700   text-sm">Intermediate</p>
             </div>
           </div>
         </div>
@@ -398,21 +383,18 @@ const FrontEnd = () => (
             <IoLogoJavascript className="text-xl text-maheenBB1 " />
             <div>
               <p className="text-zinc-800 text-xl">JavaScript</p>
-              <p className="text-zinc-700   text-sm">Intermediate</p>
             </div>
           </div>
           <div className="flex gap-4 items-center">
             <FaReact className="text-xl text-maheenBB1 " />
             <div>
               <p className="text-zinc-800 text-xl">ReactJS</p>
-              <p className="text-zinc-700   text-sm">Intermediate</p>
             </div>
           </div>
           <div className="flex gap-4 items-center">
             <RiNextjsLine className="text-xl text-maheenBB1 " />
             <div>
               <p className="text-zinc-800 text-xl">NextJS</p>
-              <p className="text-zinc-700   text-sm">Beginner</p>
             </div>
           </div>
         </div>
@@ -436,14 +418,12 @@ const BackEnd = () => (
             <FaNodeJs className="text-xl text-maheenWT1" />
             <div>
               <p className="text-zinc-500 text-xl">NodeJS</p>
-              <p className="text-zinc-500   text-sm">Beginner</p>
             </div>
           </div>
           <div className="flex gap-4 items-center">
             <SiMongodb className="text-xl text-maheenWT1 " />
             <div>
               <p className="text-zinc-500 text-xl">MongoDB</p>
-              <p className="text-zinc-500   text-sm">Beginner</p>
             </div>
           </div>
         </div>
@@ -452,7 +432,6 @@ const BackEnd = () => (
             <SiExpress className="text-xl text-maheenWT1 " />
             <div>
               <p className="text-zinc-500 text-xl">ExpressJS</p>
-              <p className="text-zinc-500   text-sm">Beginner</p>
             </div>
           </div>
         </div>
