@@ -233,59 +233,59 @@ const DataEngineering = () => (
     whileHover={{
       scale: 1.03,
     }}
-    className="col-span-12 bg-maheenWT1 text-maheenBB1 text-3xl leading-tight md:col-span-6"
+    className="col-span-12 text-3xl leading-tight md:col-span-6"
   >
     <div>
       Data Engineering
       <div className="flex justify-between md:pr-2 lg:pr-16 mt-2">
         <div>
           <div className="flex gap-4 items-center">
-            <FaPython className="text-xl text-maheenBB1" />
+            <FaPython className="text-xl text-maheenWT1" />
             <div>
-              <p className="text-zinc-800 text-xl">Python</p>
-              <p className="text-zinc-700 text-sm">Advanced</p>
+              <p className="text-zinc-500 text-xl">Python</p>
+              <p className="text-zinc-500 text-sm">Advanced</p>
             </div>
           </div>
 
           <div className="flex gap-4 items-center">
-            <SiPandas className="text-xl text-maheenBB1" />
+            <SiPandas className="text-xl text-maheenWT1" />
             <div>
-              <p className="text-zinc-800 text-xl">Pandas</p>
-              <p className="text-zinc-700 text-sm">Advanced</p>
+              <p className="text-zinc-500 text-xl">Pandas</p>
+              <p className="text-zinc-500 text-sm">Advanced</p>
             </div>
           </div>
 
           <div className="flex gap-4 items-center">
-            <FaDatabase className="text-xl text-maheenBB1" />
+            <FaDatabase className="text-xl text-maheenWT1" />
             <div>
-              <p className="text-zinc-800 text-xl">SQL</p>
-              <p className="text-zinc-700 text-sm">Intermediate</p>
+              <p className="text-zinc-500 text-xl">SQL</p>
+              <p className="text-zinc-500 text-sm">Intermediate</p>
             </div>
           </div>
         </div>
 
         <div>
           <div className="flex gap-4 items-center">
-            <SiMicrosoftazure className="text-xl text-maheenBB1" />
+            <SiMicrosoftazure className="text-xl text-maheenWT1" />
             <div>
-              <p className="text-zinc-800 text-xl">Azure</p>
-              <p className="text-zinc-700 text-sm">Intermediate</p>
+              <p className="text-zinc-500 text-xl">Azure</p>
+              <p className="text-zinc-500 text-sm">Intermediate</p>
             </div>
           </div>
 
           <div className="flex gap-4 items-center">
-            <SiPostgresql className="text-xl text-maheenBB1" />
+            <SiPostgresql className="text-xl text-maheenWT1" />
             <div>
-              <p className="text-zinc-800 text-xl">PostgreSQL</p>
-              <p className="text-zinc-700 text-sm">Intermediate</p>
+              <p className="text-zinc-500 text-xl">PostgreSQL</p>
+              <p className="text-zinc-500 text-sm">Intermediate</p>
             </div>
           </div>
 
           <div className="flex gap-4 items-center">
-            <FaGitAlt className="text-xl text-maheenBB1" />
+            <FaGitAlt className="text-xl text-maheenWT1" />
             <div>
-              <p className="text-zinc-800 text-xl">Git</p>
-              <p className="text-zinc-700 text-sm">Intermediate</p>
+              <p className="text-zinc-500 text-xl">Git</p>
+              <p className="text-zinc-500 text-sm">Intermediate</p>
             </div>
           </div>
         </div>
@@ -299,59 +299,59 @@ const AIANDML = () => (
     whileHover={{
       scale: 1.03,
     }}
-    className="col-span-12 text-3xl leading-tight md:col-span-6"
+    className="col-span-12 bg-maheenWT1 text-maheenBB1 text-3xl leading-tight md:col-span-6"
   >
     <div>
       AI & Machine Learning
       <div className="flex justify-between md:pr-2 lg:pr-16 mt-2">
         <div>
           <div className="flex gap-4 items-center">
-            <SiScikitlearn className="text-xl text-maheenWT1" />
+            <SiScikitlearn className="text-xl text-maheenBB1" />
             <div>
-              <p className="text-zinc-500 text-xl">Scikit-Learn</p>
-              <p className="text-zinc-500 text-sm">Intermediate</p>
+              <p className="text-zinc-800 text-xl">Scikit-Learn</p>
+              <p className="text-zinc-700 text-sm">Intermediate</p>
             </div>
           </div>
 
           <div className="flex gap-4 items-center">
-            <FaRobot className="text-xl text-maheenWT1" />
+            <FaRobot className="text-xl text-maheenBB1" />
             <div>
-              <p className="text-zinc-500 text-xl">Computer Vision</p>
-              <p className="text-zinc-500 text-sm">YOLOv8</p>
+              <p className="text-zinc-800 text-xl">Computer Vision</p>
+              <p className="text-zinc-700 text-sm">YOLOv8</p>
             </div>
           </div>
 
           <div className="flex gap-4 items-center">
-            <SiMongodb className="text-xl text-maheenWT1" />
+            <SiMongodb className="text-xl text-maheenBB1" />
             <div>
-              <p className="text-zinc-500 text-xl">MongoDB</p>
-              <p className="text-zinc-500 text-sm">Intermediate</p>
+              <p className="text-zinc-800 text-xl">MongoDB</p>
+              <p className="text-zinc-700 text-sm">Intermediate</p>
             </div>
           </div>
         </div>
 
         <div>
           <div className="flex gap-4 items-center">
-            <SiFastapi className="text-xl text-maheenWT1" />
+            <SiFastapi className="text-xl text-maheenBB1" />
             <div>
-              <p className="text-zinc-500 text-xl">FastAPI</p>
-              <p className="text-zinc-500 text-sm">Intermediate</p>
+              <p className="text-zinc-800 text-xl">FastAPI</p>
+              <p className="text-zinc-700 text-sm">Intermediate</p>
             </div>
           </div>
 
           <div className="flex gap-4 items-center">
-            <FaDocker className="text-xl text-maheenWT1" />
+            <FaDocker className="text-xl text-maheenBB1" />
             <div>
-              <p className="text-zinc-500 text-xl">Docker</p>
-              <p className="text-zinc-500 text-sm">Intermediate</p>
+              <p className="text-zinc-800 text-xl">Docker</p>
+              <p className="text-zinc-700 text-sm">Intermediate</p>
             </div>
           </div>
 
           <div className="flex gap-4 items-center">
-            <FaDatabase className="text-xl text-maheenWT1" />
+            <FaDatabase className="text-xl text-maheenBB1" />
             <div>
-              <p className="text-zinc-500 text-xl">Data Pipelines</p>
-              <p className="text-zinc-500 text-sm">ETL & Automation</p>
+              <p className="text-zinc-800 text-xl">Data Pipelines</p>
+              <p className="text-zinc-700 text-sm">ETL & Automation</p>
             </div>
           </div>
         </div>
@@ -359,7 +359,7 @@ const AIANDML = () => (
     </div>
   </Block>
 );
-
+         
 const FrontEnd = () => (
   <Block
     whileHover={{
