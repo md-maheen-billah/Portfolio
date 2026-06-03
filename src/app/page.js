@@ -15,7 +15,6 @@ import {
   SiFastapi,
   SiScikitlearn,
   SiPostgresql,
-  SiMongodb,
 } from "react-icons/si";
 import { LuPhone } from "react-icons/lu";
 import {
