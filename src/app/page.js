@@ -52,7 +52,7 @@ export default function Home() {
         className="mx-auto grid max-w-4xl grid-flow-dense grid-cols-12 gap-4"
       >
         {isAboutFirst && <DataEngineering />}
-        {isAboutFirst && <AIML />}
+        {isAboutFirst && <AIANDML />}
         {isAboutFirst && <FrontEnd />}
         {isAboutFirst && <BackEnd />}
         {isRobotFirst && <Project3 />}
@@ -65,7 +65,7 @@ export default function Home() {
         <SocialsBlock />
         <AboutBlock />
         {isAboutFirst && <DataEngineering />}
-        {isAboutFirst && <AIML />}
+        {isAboutFirst && <AIANDML />}
         {!isRobotFirst && <Project3 />}
         {!isRobotFirst && <Project1 />}
         {!isRobotFirst && <Project2 />}
@@ -293,7 +293,7 @@ const DataEngineering = () => (
   </Block>
 );
 
-const AIML = () => (
+const AIANDML = () => (
   <Block
     whileHover={{
       scale: 1.03,
